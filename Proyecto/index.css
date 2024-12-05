@@ -27,6 +27,7 @@ main {
 
 footer {
     padding-top: 25%;
+    padding-bottom: 0;
     color: #FFFFFF;
     text-align: center;
 
@@ -42,6 +43,7 @@ footer {
 
 .columna {
     flex-basis: 70%;
+
 }
 
 .columna_izq {
@@ -167,8 +169,8 @@ footer {
 
 h5 {
     position: relative;
-    top: 160px;
-    margin: 0%;
+    top: 190px;
+    margin: 3%;
     left: 43%;
     font-size: 36px;
     letter-spacing: 2px;
