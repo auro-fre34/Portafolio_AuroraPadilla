@@ -8,22 +8,17 @@ body {
     background-size: cover;
     padding-left: 2%;
     padding-right: 2%;
-
     box-sizing: border-box;
-    color: aliceblue;
+    color: #fffcf6;
     font-family: 'Montserrat';
 }
 
 body,
 html {
     overflow: scroll;
-    min-height: 150vh;
+    min-height: 145vh;
 }
 
-main {
-    min-height: calc(100vh - 50px);
-    /* Altura de la ventana menos la altura del footer */
-}
 
 footer {
     padding-top: 25%;
@@ -121,6 +116,11 @@ footer {
     width: 5%;
     height: 5%;
     border-radius: 0px;
+    cursor: default;
+}
+
+.imgs:hover {
+    transform: translateY(-15px);
 }
 
 .btnCurriculum {
@@ -194,7 +194,6 @@ h5 {
     transition: 0.5s;
 
 }
-
 
 .cuadro_1 {
     background-image: url(/imgs/fondo3.png);
